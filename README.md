@@ -62,7 +62,7 @@ Let me know about the cool projects you develop with Shaman King API 😄
 
 Thank you for considering contributing to Shaman King API
 
-- You can contribute by sending information about characters or labors that have not yet been added.
+- You can contribute by sending information about characters or spirits that have not yet been added.
 - You can also contribute by suggesting improvements to the project, code, endpoints, etc.
 - Reporting bugs 
 
