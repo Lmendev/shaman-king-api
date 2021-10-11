@@ -71,8 +71,8 @@ In any case, feel free to create [a new issue](https://github.com/lmendev/shaman
 ## Software requirements
 
 - GIT
-- PHP
-- Composer
+- NODE
+- NPM
 
 ## Installation
 
