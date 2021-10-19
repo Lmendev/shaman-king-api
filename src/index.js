@@ -1,3 +1,4 @@
-const config = require('./config/index')
+const Server = require('./server')
 
-console.log(config)
+const server = new Server();
+server.listen()
