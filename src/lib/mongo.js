@@ -31,6 +31,14 @@ class MongoLib {
 
         return MongoLib.connection
     }
+
+    getAll(collection, query){
+        return this.connect().then(db => db.collection(collection).find(query).toArray())
+    }
+
+    get(collection, id){
+        return this.connect().then(db => db.collection(collection).findOne({ _id: ObjectId(id) }))
+    }
 }
 
 module.exports = MongoLib
